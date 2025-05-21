@@ -6,5 +6,5 @@ st.info('Esta es un app que nos permite ver las estadistica de los catadores de 
 
 with st.expander('Dataset'):
   st.write('**Datos de muestra**')
-  df = pd.csv('winequality-red.csv')
+  df = pd.read_csv('winequality-red.csv')
   df
