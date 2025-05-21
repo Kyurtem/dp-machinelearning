@@ -8,7 +8,8 @@ with st.expander('Dataset'):
   st.write('**Datos de muestra**')
   df = pd.read_csv('winequality-red.csv')
   df
-  
+
+with st.expander('Dataset 1.1'):
   st.write('**X**')
   X = df.drop('quality', axis=1)
   X
