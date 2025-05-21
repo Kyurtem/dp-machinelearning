@@ -8,14 +8,14 @@ with st.expander('Dataset'):
   st.write('**Datos de muestra**')
   df = pd.read_csv('winequality-red.csv')
   df
-
-st.write('**X**')
-X = df.drop('quality', axis=1)
-X
-
-st.write('**Y**')
-Y = df.quality
-Y
+  
+  st.write('**X**')
+  X = df.drop('quality', axis=1)
+  X
+  
+  st.write('**Y**')
+  Y = df.quality
+  Y
 
 with st.expander('Data Visualition'):
   st.scatter_chart(data=df, x='alcohol', y='pH', color='quality')
