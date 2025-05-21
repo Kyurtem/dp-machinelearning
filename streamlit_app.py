@@ -18,4 +18,4 @@ Y = df.quality
 Y
 
 with st.expander('Data Visualition'):
-st.scatter_chart(data=df, x='alcohol', y='pH', color='quality')
+  st.scatter_chart(data=df, x='alcohol', y='pH', color='quality')
