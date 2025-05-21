@@ -11,7 +11,7 @@ with st.expander('Dataset'):
 
 st.write('**X**')
 X = df.drop('quality', axis=1)
-x
+X
 
 st.write('**Y**')
 Y = df.quality
